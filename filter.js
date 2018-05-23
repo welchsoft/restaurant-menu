@@ -6,7 +6,7 @@ let menuButtonEntrees = document.getElementById('menu-button-entrees')
 let menuButtonStarters = document.getElementById('menu-button-starters')
 let menuButtonDesserts = document.getElementById('menu-button-desserts')
 
-function full_menu(selecter) {
+function full_menu() {
   menuContent.innerHTML = ''
   dishes.forEach(function(dish) {
       let menuItem = `<div class="card">
